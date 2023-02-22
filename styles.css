@@ -70,6 +70,20 @@ body {
   margin-top: 60px;
   width: 100%;
 }
+.task-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 6px;
+  margin-bottom: 6px;
+}
+.delete-task-button {
+  background-color: rgb(255, 115, 0);
+  color: #fff;
+  padding: 12px;
+  border-radius: 5px;
+  cursor: pointer;
+}
 
 /* Utilities */
 .error {
@@ -78,4 +92,8 @@ body {
 
 .error::placeholder {
   color: yellow;
+}
+
+.completed {
+  text-decoration: line-through;
 }
